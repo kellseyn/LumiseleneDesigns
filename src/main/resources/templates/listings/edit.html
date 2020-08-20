@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Listing</title>
+</head>
+<body>
+<h1>Edit Listing</h1>
+<form th:action="@{'/listings/' + ${listing.id} + '/edit'}" th:method="POST" >
+    <label for="title">Title</label>
+    <input id="title" type="text" name="title" th:value="${listing.title}" placeholder="Enter title here">
+
+    <label for="description">Body</label>
+    <textarea id="description" name="body" th:text="${listing.description}" placeholder="Enter listing description here">
+
+        </textarea>
+
+
+
+    <button>Update Listing</button>
+</form>
+<form th:action="@{|/listings/${listing.id}/delete|}" th:method="POST">
+    <button>Delete Listing</button>
+</form>
+</body>
+</html>
