@@ -3,19 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="../listing.css">
 </head>
 <body>
 
 
 <form th:action="@{/listings/create}" th:method="POST" th:object="${listing}">
-    <label for="title">title</label>
+    <label for="title">Title</label>
     <input id="title" type="text" th:field="*{title}" placeholder="Enter listing title here">
 
     <label for="description">Description</label>
     <textarea id="description" th:field="*{description}" placeholder="Enter listing description here">
         </textarea>
+
+    <label for="picture_URL">Image URL</label>
+    <input id="picture_URL" type="text" th:field="*{picture_URL}" placeholder="Enter image URL here">
+
+    <span class="usd">
+        <label for="price">Price</label>
+        <input id="price" type="currency" min="0.00" max="10000.00" step="0.01" placeholder= "Set price">
+    </span>
+
     <button type="submit">Create listing</button>
 </form>
 
+<script src="../listing.js">
+
+</script>
 </body>
 </html>

@@ -22,14 +22,14 @@ import javax.persistence.*;
         @OneToOne
         private ListingDetails listingDetails;
 
-        public Listing(){
+        public Listing(long id, String title, String description){
 
         }
 
-    public Listing(String title, double price, String picture_URL) {
-        this.title = title;
-        this.price = price;
-        this.picture_URL = picture_URL;
+    public Listing(long id, String title, String description, String picture_URL, double price) {
+        this.title = this.title;
+        this.price = this.price;
+        this.picture_URL = this.picture_URL;
     }
 
     public Listing(long id, String title, double price, String picture_URL) {
