@@ -22,7 +22,7 @@ import javax.persistence.*;
         @OneToOne
         private ListingDetails listingDetails;
 
-        public Listing(long id, String title, String description){
+        public Listing(){
 
         }
 
