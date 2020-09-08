@@ -60,7 +60,7 @@ public class ListingController {
     @PostMapping("/listings/create")
     public String createListing(@ModelAttribute Listing listing) {
         listingDao.save(listing);
-        return "redirect:/listings";
+        return "redirect:/home";
     }
 
     @GetMapping("one/test")
