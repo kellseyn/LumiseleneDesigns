@@ -44,6 +44,66 @@
           "https://i.etsystatic.com/18225026/r/il/017ac7/2192984922/il_1588xN.2192984922_a5z1.jpg"
         ],
         "price": 7.00
+      },
+      {
+        "id": 5,
+        "type": "Pattern",
+        "name": "Fruits Basket \"Kisa Sohma Tiger Zodiac Form\" Counted Cross Stitch Pattern (Digital PDF)",
+        "description": "Cross stitch PDF pattern of Kisa from the show Fruits Basket",
+        "img_URL": [
+          "https://i.etsystatic.com/18225026/r/il/a0389c/2394267469/il_1588xN.2394267469_s5kc.jpg"
+        ],
+        "price": 6.00
+      },
+      {
+        "id": 6,
+        "type": "Pattern",
+        "name": "Fruits Basket \"Yuki Sohma Rat Zodiac Form\" Counted Cross Stitch Pattern (Digital PDF)",
+        "description": "Cross stitch PDF pattern of Yuki from the show Fruits Basket",
+        "img_URL": [
+          "https://i.etsystatic.com/18225026/r/il/425877/2396910986/il_1588xN.2396910986_pse8.jpg"
+        ],
+        "price": 6.00
+      },
+      {
+        "id": 7,
+        "type": "Pattern",
+        "name": "Fruits Basket \"Momiji Sohma Rabbit Zodiac Form\" Counted Cross Stitch Pattern (Digital PDF)",
+        "description": "Cross stitch PDF pattern of Momiji from the show Fruits Basket",
+        "img_URL": [
+          "https://i.etsystatic.com/18225026/r/il/3ecb2d/2444542951/il_1588xN.2444542951_ilem.jpg"
+        ],
+        "price": 6.00
+      },
+      {
+        "id": 8,
+        "type": "Pattern",
+        "name": "Fruits Basket \"Kyo Sohma Cat Zodiac Form\" Counted Cross Stitch Pattern (Digital PDF)",
+        "description": "Cross stitch PDF pattern of Kyo from the show Fruits Basket",
+        "img_URL": [
+          "https://i.etsystatic.com/18225026/r/il/afda3a/2346678926/il_1588xN.2346678926_3f8t.jpg"
+        ],
+        "price": 6.00
+      },
+      {
+        "id": 9,
+        "type": "Pattern",
+        "name": "Fruits Basket \"Shigure Sohma Dog Zodiac Form\" Counted Cross Stitch Pattern (Digital PDF)",
+        "description": "Cross stitch PDF pattern of Shigure from the show Fruits Basket",
+        "img_URL": [
+          "https://i.etsystatic.com/18225026/r/il/b56444/2518498086/il_1588xN.2518498086_mx3o.jpg"
+        ],
+        "price": 6.00
+      },
+      {
+        "id": 10,
+        "type": "Pattern",
+        "name": "Fruits Basket \"Hatsuharu Sohma Ox/Cow Zodiac Form\" Counted Cross Stitch Pattern (Digital PDF)",
+        "description": "Cross stitch PDF pattern of Hatsuharu from the show Fruits Basket",
+        "img_URL": [
+          "https://i.etsystatic.com/18225026/r/il/940900/2518507914/il_1588xN.2518507914_2fi6.jpg"
+        ],
+        "price": 6.00
       }
     ]
   }
